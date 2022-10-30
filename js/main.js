@@ -47,7 +47,7 @@ const cores = {
 
 const corRobotron = (cor) => {
   let img = document.querySelector('[imgRobotron]')
-  let pathImg = `..img/cores/Robotron 2000 - ${cor}.png`
+  let pathImg = `../img/cores/Robotron 2000 - ${cor}.png`
   img.src = pathImg
   return img
 }
